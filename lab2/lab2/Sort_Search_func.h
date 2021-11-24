@@ -9,7 +9,7 @@ int* Get_array(int max, int size)
 {
     if (max > 0 && size > 0)
     {
-        int* arr = new int[size];
+        int* arr = new int[size]; //creat new array
         int i;
         srand(time(0));
 
@@ -24,7 +24,7 @@ void Print_array(int* array, int size)
 {
     int i;
     for (i = 0; i < size; i++)
-        cout << array[i] << " "; // вывод результата на экране
+        cout << array[i] << " "; // print array
     cout << endl;
 }
 int Get_max()

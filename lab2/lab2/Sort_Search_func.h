@@ -36,7 +36,7 @@ int Get_max()
 
 int BinarySearch(int* arr, int left, int right, int search_item)
 {
-    if (arr != nullptr && left > 0 && right > 0)
+    if (arr != nullptr && left > 0 && right > 0) //check for correct conditions
     {
         while (left <= right) {
             int mid = left + (right - left) / 2;
@@ -61,7 +61,7 @@ int BinarySearch(int* arr, int left, int right, int search_item)
 }
 void QuickSort(int* array, int first, int last)
 {
-    if (array != nullptr)
+    if (array != nullptr)//check for correct conditions
     {
         int pivot, left, temp, right;
 
@@ -84,7 +84,8 @@ void QuickSort(int* array, int first, int last)
                 }
             }
 
-            temp = array[pivot];
+            
+            temp = array[pivot]; //apply the first steps to the two subarrays to the left and right of the pivot
             array[pivot] = array[left];
             array[left] = temp;
             QuickSort(array, first, left - 1);
@@ -99,7 +100,7 @@ void QuickSort(int* array, int first, int last)
 }
 void InsertSort(int* array, int size)
 {
-    if (array != nullptr && size > 0)
+    if (array != nullptr && size > 0)//check for correct conditions
     {
         for (int i = 0; i < size; i++)
         {

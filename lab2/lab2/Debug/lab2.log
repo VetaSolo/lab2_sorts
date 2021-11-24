@@ -1,0 +1,8 @@
+﻿  lab2.cpp
+C:\Users\lizas\OneDrive\Рабочий стол\lab2\lab2\Sort_Search_func.h(14,19): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\lizas\OneDrive\Рабочий стол\lab2\lab2\Sort_Search_func.h(32,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\lizas\OneDrive\Рабочий стол\lab2\lab2\lab2.cpp(183,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\lizas\OneDrive\Рабочий стол\lab2\lab2\Sort_Search_func.h(22): warning C4715: Get_array: значение возвращается не при всех путях выполнения
+C:\Users\lizas\OneDrive\Рабочий стол\lab2\lab2\Sort_Search_func.h(61): warning C4715: BinarySearch: значение возвращается не при всех путях выполнения
+C:\Users\lizas\OneDrive\Рабочий стол\lab2\lab2\Sort_Search_func.h(149): warning C4715: MaxChar: значение возвращается не при всех путях выполнения
+  lab2.vcxproj -> C:\Users\lizas\OneDrive\Рабочий стол\lab2\Debug\lab2.exe

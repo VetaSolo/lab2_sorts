@@ -1,0 +1,7 @@
+﻿  UnitTest2.cpp
+C:\Users\lizas\OneDrive\Рабочий стол\lab2\lab2\Sort_Search_func.h(14,19): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\lizas\OneDrive\Рабочий стол\lab2\lab2\Sort_Search_func.h(32,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\lizas\OneDrive\Рабочий стол\lab2\UnitTest2\UnitTest2.cpp(18,1): error C2660: UnitTest2::lab2::QuickSort: функция не принимает 3 аргументов
+C:\Users\lizas\OneDrive\Рабочий стол\lab2\UnitTest2\UnitTest2.cpp(12,3): message : см. объявление "UnitTest2::lab2::QuickSort"
+C:\Users\lizas\OneDrive\Рабочий стол\lab2\UnitTest2\UnitTest2.cpp(19,1): error C2660: UnitTest2::lab2::InsertSort: функция не принимает 2 аргументов
+C:\Users\lizas\OneDrive\Рабочий стол\lab2\UnitTest2\UnitTest2.cpp(32,3): message : см. объявление "UnitTest2::lab2::InsertSort"
